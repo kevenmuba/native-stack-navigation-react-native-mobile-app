@@ -18,11 +18,11 @@ function MealDetailScreen({ route, navigation }) {
 
   function changeFavoriteStatusHandler() {
     console.log("Favorite button clicked");
-    if (mealIsFavorite) {
-      favoriteMealsCtx.removeFavorite(mealId);
-    } else {
-      favoriteMealsCtx.addFavorite(mealId);
-    }
+    // if (mealIsFavorite) {
+    //   favoriteMealsCtx.removeFavorite(mealId);
+    // } else {
+    //   favoriteMealsCtx.addFavorite(mealId);
+    // }
   }
 
   useLayoutEffect(() => {
